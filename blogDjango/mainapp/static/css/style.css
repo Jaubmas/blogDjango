@@ -1,0 +1,244 @@
+/*Estilos Generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, Arial, Helvetica;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+/*Estilos Cabecera*/
+header{
+    width: 1500px;
+    height: 140px;
+    background-color: #636363;
+    margin: 0 auto;
+}
+#logotipo{
+    width: 35%;
+    height: 130px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#logotipo img{
+    display: block;
+    float: left;
+    width: 60px;
+    margin-top: 20px;
+    
+}
+#logotipo h1{
+    display: block;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #0b2523;
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+/*Estilos barra de navegación*/
+nav{
+    background-color: #1b1e1f;
+    border: 1px solid #333333;
+    width: 1550px;
+    height: 40px;
+    margin: 0 auto;
+    box-shadow: 0px 22px 22px grey;
+    font-size: 13px;
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li{
+    line-height: 40px;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+nav ul li a:hover{
+    background: #2ba977;
+    box-shadow: 0px 0px 5px #333333 inset;
+    color: white;
+    transition: all 300ms;
+}
+
+.barra{
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.esquina-izquierda{
+    display: block;
+    border-left: 20px solid transparent;
+    border-top: 10px solid #2b2f30;
+    float: left;
+}
+
+.esquina-derecha{
+    display: block;
+    border-right: 20px solid transparent;
+    border-top: 10px solid #2b2f30;
+    float: right;
+}
+
+.relleno-barra{
+    display: block;
+    width: 1510px;
+    background-color: #2b2f30;
+    height: 10px;
+    float: left;
+}
+/*Estilos contenido central*/
+
+#content{
+    width: 1500px;
+    min-height: 950px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.box{
+    background-color: white;
+    width: 90%;
+    min-height: 930px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.box form{
+    width: 50%;
+
+}
+
+.box form input,
+.box form label{
+    display: block;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.box form input[type="text"],
+.box form textarea{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box form select{
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.box form input[type="submit"],
+.box form input[type="button"],
+.box form button{
+    padding: 10px;
+    margin-top: 5px;
+    background: #2ba977;
+    color: white;
+    border: 1px solid black;
+    transition: 300ms all;
+}
+
+.box form input[type="submit"]:hover,
+.box form input[type="button"]:hover,
+.box form button:hover{
+    cursor: pointer;
+    background: #1f7e58;
+    transition: 300ms all;
+}
+.rojo{
+    color: red;
+}
+.message{
+    color: green;
+}
+.title{
+    color: #444;
+    letter-spacing: 1px;
+    font-size: 30px;
+
+}
+
+.article-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    clear: both;
+}
+
+.article-item .image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.article-item .image img{
+    height: 200px;
+}
+
+.article-item .data{
+    float: left;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.article-item h2{
+    display: block;
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.article-item span.date{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.btn{
+    width: 50px;
+    padding: 10px;
+    background: rgb(75, 1, 1);
+    color: white;
+    border: 1px solid black;
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+}
+footer{
+    width: 1500px;
+    background-color: #1b1e1f;
+    border: 1px solid #333;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 20px grey;
+    margin: 0 auto;
+    color: white;
+}
+
