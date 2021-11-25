@@ -179,7 +179,16 @@ nav ul li a:hover{
     font-size: 30px;
 
 }
+.date{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
 
+.content{
+    line-height: 25px;
+}
 .article-item{
     margin-bottom: 20px;
     margin-top: 20px;
