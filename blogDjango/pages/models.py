@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Page(models.Model):
-    title = models.CharField(max_lenght=100, verbose_name="Título")
+    title = models.CharField(max_length=100, verbose_name="Título")
     content = models.TextField(verbose_name="Contenido")
     slug = models.CharField(max_length=150, verbose_name="Friendly URL", unique=True)
     hidden = models.BooleanField(verbose_name="Visible")
