@@ -9,6 +9,7 @@ class PageAdmin(admin.ModelAdmin):
     search_fields = ('title', 'content')
     list_filter = ('hidden',)
     list_display = ('title', 'hidden', 'created_at')
+
 admin.site.register(Page, PageAdmin)
 
 title = "Panel de gestión"
